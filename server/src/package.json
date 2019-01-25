@@ -1,0 +1,35 @@
+{
+  "name": "marcus_garducci",
+  "version": "1.0.0",
+  "description": "Project created by RedFox to test the skill of devs for they new job.",
+  "main": "/views/index.html",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.4.6",
+    "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "dotenv": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahgarducci/vaga-fullstack.git"
+  },
+  "keywords": [
+    "FullStack",
+    "Challenge"
+  ],
+  "author": "Marcus Garducci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahgarducci/vaga-fullstack/issues"
+  },
+  "homepage": "https://github.com/mahgarducci/vaga-fullstack#readme"
+}

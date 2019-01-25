@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pokémon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+
+    <!-- Import JS -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">Pokémon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/views/pokedex.html">Pokédex<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Procure o Pokemon..." aria-label="Search">
+                    <button class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <button type="button" class="btn btn-outline-secondary offset-sm-10 offset-md-10" 
+    data-toggle="tooltip" title="Adicionar Pokémon">+</button>
+
+    <table class="table offset-sm-1 col-sm-10 offset-md-1 col-md-10">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Generation</th>
+                <th scope="col">Type1</th>
+                <th scope="col">Type2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>weqd</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>asdsad</td>
+            </tr>
+
+            <footer class="footer">
+                <div class="container">
+                    <span>&copy Made by Marcus Garducci.</span>
+                </div>
+            </footer>
+</body>
+
+</html>
